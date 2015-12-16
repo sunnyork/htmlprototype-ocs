@@ -1,0 +1,60 @@
+@screen-sm-min: 768px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+@color-major: #de6600;
+@color-light: #777;
+@bg-light: #f3f3f3;
+@font-major: "微軟正黑體", "Microsoft JhengHei", "Heiti TC", "LiHei Pro", "新細明體", "PMingLiU", "細明體", "MingLiU", "sans-serif";
+@font-num: sans-serif;
+@font-size-sm: 13px;
+@bg-major: "../images/ocs_err.png";
+@bg-major-size: 230px;
+@bg-major-padding: 260px; // padding-top
+@logo: "../images/ocslogo.png";
+@logo-size: 114px; // width
+@logo-padding: 70px;
+
+body {
+ background: url("../images/ocs_500.png");
+ background-repeat: no-repeat;
+ background-position: 50% 80px;
+ background: @bg-light;
+ font-family: "微軟正黑體", "Microsoft JhengHei", "Heiti TC", "LiHei Pro", "新細明體", "PMingLiU", "細明體", "MingLiU", "sans-serif"
+}
+
+.msg-wrap {
+ em { // http status code
+  font-family: "Arial","sans-serif";
+  color: @color-major;
+  font-style: normal;
+  margin-right: 5px;
+ }
+ text-align: center;
+ background: url(@bg-major) no-repeat 50% 0;
+ background-size: 0.5*@bg-major-size;
+ padding-top: 0.5*@bg-major-padding;
+ @media (min-width: @screen-sm-min) { // vertical-align middle @ !mobile
+  box-sizing: border-box;
+  height: 400px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: @bg-major-size;
+  padding-top: @bg-major-padding;
+ }
+ p {
+  color: @color-light;
+  font-size: @font-size-sm;
+  line-height: 2;
+  background: url(@logo) no-repeat 50% 100%;
+  background-size: 0.5*@logo-size;
+  padding-bottom: 0.5*@logo-padding;
+  @media (min-width: @screen-sm-min) {
+   background-size: @logo-size;
+   padding-bottom: @logo-padding;
+  }
+ }
+}

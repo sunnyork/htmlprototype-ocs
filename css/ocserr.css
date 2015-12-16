@@ -1,0 +1,47 @@
+body {
+  background: url("../images/ocs_500.png");
+  background-repeat: no-repeat;
+  background-position: 50% 80px;
+  background: #f3f3f3;
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Heiti TC", "LiHei Pro", "新細明體", "PMingLiU", "細明體", "MingLiU", "sans-serif";
+}
+.msg-wrap {
+  text-align: center;
+  background: url("../images/ocs_err.png") no-repeat 50% 0;
+  background-size: 115px;
+  padding-top: 130px;
+}
+.msg-wrap em {
+  font-family: "Arial", "sans-serif";
+  color: #de6600;
+  font-style: normal;
+  margin-right: 5px;
+}
+@media (min-width: 768px) {
+  .msg-wrap {
+    box-sizing: border-box;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 230px;
+    padding-top: 260px;
+  }
+}
+.msg-wrap p {
+  color: #777777;
+  font-size: 13px;
+  line-height: 2;
+  background: url("../images/ocslogo.png") no-repeat 50% 100%;
+  background-size: 57px;
+  padding-bottom: 35px;
+}
+@media (min-width: 768px) {
+  .msg-wrap p {
+    background-size: 114px;
+    padding-bottom: 70px;
+  }
+}

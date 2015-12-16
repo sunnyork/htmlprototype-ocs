@@ -1,0 +1,1 @@
+$(function(){(function(){$(".panel-heading").mousedown(function(){var a=$(this),b=a.next();a.hasClass("score-open")?(a.removeClass("score-open"),b.hide(400).removeClass("in")):(a.addClass("score-open").parent().siblings().find(".panel-heading").removeClass("score-open").end().find(".panel-collapse").hide(400).removeClass("in"),b.show(400).addClass("in"))})})()});
