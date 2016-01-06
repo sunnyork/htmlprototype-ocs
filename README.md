@@ -145,3 +145,7 @@ form submit (POST)
 * ie8 media query hack / v3.7.2 [html5shiv.min.js](html5shiv.min.js), v1.4.2[respond.min.js](respond.min.js)
 * ie10 viewport hack / [ie10-viewport-bog-wordaround.js](ie10-viewport-bog-wordaround.js)
 * jquery / v1.11.1 [jqery.min.js](jqery.min.js)
+
+### notice
+
+* All the APIs can be simulated with provided PHP files, and need to put this repo. onto a web server with PHP installed to make it work. 
