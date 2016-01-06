@@ -11,6 +11,16 @@
   <link href="css/ocs30.css" rel="stylesheet">
   <style>
     /*for this page only XD*/
+    ol,li {
+      padding: 0 0 0 10px;
+      margin:0 0 10px;
+    }
+    .hide {
+      display:none;
+    }
+    .del {
+      text-decoration: line-through;
+    }
     .table h4 {
       font-weight: 800;
       background:#ccc;
@@ -48,6 +58,11 @@
     }
     pre span {
       color:#666;
+    }
+    div.sub {
+      margin-top:10px;
+      color:#aaa;
+      font-size:12px;
     }
   </style>
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -119,7 +134,16 @@
                   </tr>
                   <tr>
                     <td></td>
-                    <td><a href="11j.html">page.11 考題管理</a></td>
+                    <td>
+                      <a href="11j.html">page.11 考題管理</a>
+                      <div class="sub">
+                        <a href="11.html">* 靜態網頁</a><br>
+                        <ol>
+                          <li>一進去是空的，以search按鈕作為啟動。  </li>
+                          <li>用ＰＨＰ模擬和測試ＡＰＩ</li>
+                        </ol>
+                      </div>
+                    </td>
                     <td>
                       <a href="javascripts/plugin/rowAccess.js">rowAccess.js</a>、
                       <a href="javascripts/plugin/modalInit.js">modalInit.js</a>、
@@ -178,7 +202,16 @@ exam-id {str} 替換的考題ID
 
                   <tr>
                     <td></td>
-                    <td><a href="12j.html">page.12 輸入考題</a></td>
+                    <td>
+                      <a href="12j.html">page.12 輸入考題</a>
+                      <div class="sub">
+                        <a href="12.html">* 靜態網頁</a>  
+                        <ol>
+                          <li>用ＰＨＰ模擬和測試</li>
+                        </ol>
+                      </div>
+
+                    </td>
                     <td></td>
                     <td></td>
                   </tr>
@@ -193,7 +226,13 @@ exam-id {str} 替換的考題ID
                   </tr>
                   <tr>
                     <td></td>
-                    <td><a href="21j.html">page.21 考試總覽</a></td>
+                    <td>
+                      <a href="21j.html">page.21 考試總覽</a>
+                      <div class="sub">
+                        <a href="21.html">* 靜態網頁</a><br>
+                        第一次response就吐回內容，所以和21j.html長相一樣。  
+                      </div>
+                    </td>
                     <td>
                       <a href="javascripts/plugin/rowAccess.js">rowAccess.js</a>、
                       <a href="javascripts/plugin/modalInit.js">modalInit.js</a>、
@@ -238,6 +277,15 @@ id {str} 考試id
                     <td>
                       <a href="22j.html">page.22 預約考試</a><br>
                       <a href="22aj.html">page.22 預約考試/結果</a>
+                      <div class="sub">
+                        <a class="del">* 靜態網頁 (還沒找到）</a>  <br>
+                        <ol>
+                          <li>廠牌名稱依user權限，response時直接吐回</li>
+                          <li>用ＰＨＰ模擬和測試ＡＰＩ</li>
+                        </ol>
+
+                      </div>
+
                     </td>
                     <td>
                       <a href="javascripts/plugin/starRate.js">starRate.js</a>、
