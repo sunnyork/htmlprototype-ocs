@@ -4,13 +4,13 @@
 
 ### global
 
-* page.0 template / [00template.html](00template.html)
-* page.10 login / [10.html](10.html)
-* page.500 error mssage / [err.html](err.html)
+* page.0 template / [00template.html](http://sunnyork.github.io/htmlprototype-ocs/00template.html)
+* page.10 login / [10.html](http://sunnyork.github.io/htmlprototype-ocs/10.html)
+* page.500 error mssage / [err.html](http://sunnyork.github.io/htmlprototype-ocs/err.html)
 
 ### inside
 
-* page.11 question management / [11j.html](11j.html)
+* page.11 question management / [11j.html](http://sunnyork.github.io/htmlprototype-ocs/11j.html)
 
 question query (AJAX GET) / request
   ```PARAM
@@ -57,12 +57,12 @@ replace question (AJAX POST)/ request
   exam-id {str} exam id of the question to be replaced
   ```
 
-* page.12 upload question / [12j.html](12j.html)
-* page.13 upload examinee / [13.html](13.html)
+* page.12 upload question / [12j.html](http://sunnyork.github.io/htmlprototype-ocs/12j.html)
+* page.13 upload examinee / [13.html](http://sunnyork.github.io/htmlprototype-ocs/13.html)
 
 ### manager
 
-* page.21 questions overview / [21j.html](21j.html)
+* page.21 questions overview / [21j.html](http://sunnyork.github.io/htmlprototype-ocs/21j.html)
 
 delete exam (AJAX POST) / request
   ```PARAM
@@ -88,9 +88,9 @@ re-send exam invitation / response
   case: 0 fail
   ```
 
-* page.21a question detail / [21a.html](21a.html)
-* page.22 booking exam / [22j.html](22j.html)
-* page.22a booking exam ~ result / [22aj.html](22aj.html)
+* page.21a question detail / [21a.html](http://sunnyork.github.io/htmlprototype-ocs/21a.html)
+* page.22 booking exam / [22j.html](http://sunnyork.github.io/htmlprototype-ocs/22j.html)
+* page.22a booking exam ~ result / [22aj.html](http://sunnyork.github.io/htmlprototype-ocs/22aj.html)
 
 form submit (POST)
   ```PARAM
@@ -108,43 +108,43 @@ form submit (POST)
 
 ### examinee
 
-* page.31 exams overview / [31.html](31.html)
-* page.31a exam ~ before / [31a.html](31a.html)
-* page.31b exam ~ testing / [31b.html](31b.html)
-* page.31c exam ~ result / [31c.html](31c.html)
-* page.31d exam result detail(form mail) / [31d.html](31d.html)
+* page.31 exams overview / [31.html](http://sunnyork.github.io/htmlprototype-ocs/31.html)
+* page.31a exam ~ before / [31a.html](http://sunnyork.github.io/htmlprototype-ocs/31a.html)
+* page.31b exam ~ testing / [31b.html](http://sunnyork.github.io/htmlprototype-ocs/31b.html)
+* page.31c exam ~ result / [31c.html](http://sunnyork.github.io/htmlprototype-ocs/31c.html)
+* page.31d exam result detail(form mail) / [31d.html](http://sunnyork.github.io/htmlprototype-ocs/31d.html)
 
 ## CSS
 
-* bootstrap.min.css / bootstrap core [bootstrap.min.css](bootstrap.min.css)
-* ocs30.css / O.C.S. main style [ocs30.css](ocs30.css)
-* starRate.css / js plugin starRate [starRate.css](starRate.css)
-* datepicker3.css / 3-rd party js plugin datepicker [datepicker.css](datepicker.css)
+* bootstrap.min.css / bootstrap core [bootstrap.min.css](http://sunnyork.github.io/htmlprototype-ocs/bootstrap.min.css)
+* ocs30.css / O.C.S. main style [ocs30.css](http://sunnyork.github.io/htmlprototype-ocs/ocs30.css)
+* starRate.css / js plugin starRate [starRate.css](http://sunnyork.github.io/htmlprototype-ocs/starRate.css)
+* datepicker3.css / 3-rd party js plugin datepicker [datepicker.css](http://sunnyork.github.io/htmlprototype-ocs/datepicker.css)
 
 ## JS
 
 ### plugin
 
-* modalInit / v1.0 [modalInit.js](modalInit.js)
-* rowAccess / v1.0 [rowAccess.js](rowAccess.js)
-* starRate / v1.0 [starRate.js](starRate.js)
+* modalInit / v1.0 [modalInit.js](http://sunnyork.github.io/htmlprototype-ocs/modalInit.js)
+* rowAccess / v1.0 [rowAccess.js](http://sunnyork.github.io/htmlprototype-ocs/rowAccess.js)
+* starRate / v1.0 [starRate.js](http://sunnyork.github.io/htmlprototype-ocs/starRate.js)
 
 ### 3rd-party plugin
 
-* datepicker(calendar) / [bootstrap-datepicker.js](bootstrap-datepicker.js)
-* js validate / v1.13.1 [jquery.validate.min.js](jquery.validate.min.js)
-* validate using bootstrap-tooltip / v0.5 [jquery-validate.bootstrap-tooltip](jquery-validate.bootstrap-tooltip)
+* datepicker(calendar) / [bootstrap-datepicker.js](http://sunnyork.github.io/htmlprototype-ocs/bootstrap-datepicker.js)
+* js validate / v1.13.1 [jquery.validate.min.js](http://sunnyork.github.io/htmlprototype-ocs/jquery.validate.min.js)
+* validate using bootstrap-tooltip / v0.5 [jquery-validate.bootstrap-tooltip](http://sunnyork.github.io/htmlprototype-ocs/jquery-validate.bootstrap-tooltip)
 
 ### in page
 
-* in-page js files / [11.js](11.js),[21.js](21.js),[22.js](22.js),[31c.js](31c.js),
+* in-page js files / [11.js](http://sunnyork.github.io/htmlprototype-ocs/11.js),[21.js](http://sunnyork.github.io/htmlprototype-ocs/21.js),[22.js](http://sunnyork.github.io/htmlprototype-ocs/22.js),[31c.js](http://sunnyork.github.io/htmlprototype-ocs/31c.js),
 
 ### others
 
-* bootstrap / v3.2.0 [bootstrap.min.js](bootstrap.min.js)
-* ie8 media query hack / v3.7.2 [html5shiv.min.js](html5shiv.min.js), v1.4.2[respond.min.js](respond.min.js)
-* ie10 viewport hack / [ie10-viewport-bog-wordaround.js](ie10-viewport-bog-wordaround.js)
-* jquery / v1.11.1 [jqery.min.js](jqery.min.js)
+* bootstrap / v3.2.0 [bootstrap.min.js](http://sunnyork.github.io/htmlprototype-ocs/bootstrap.min.js)
+* ie8 media query hack / v3.7.2 [html5shiv.min.js](http://sunnyork.github.io/htmlprototype-ocs/html5shiv.min.js), v1.4.2[respond.min.js](http://sunnyork.github.io/htmlprototype-ocs/respond.min.js)
+* ie10 viewport hack / [ie10-viewport-bog-wordaround.js](http://sunnyork.github.io/htmlprototype-ocs/ie10-viewport-bog-wordaround.js)
+* jquery / v1.11.1 [jqery.min.js](http://sunnyork.github.io/htmlprototype-ocs/jqery.min.js)
 
 ### notice
 
