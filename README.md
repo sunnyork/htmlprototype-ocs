@@ -116,35 +116,35 @@ form submit (POST)
 
 ## CSS
 
-* bootstrap.min.css / bootstrap core [bootstrap.min.css](http://sunnyork.github.io/htmlprototype-ocs/bootstrap.min.css)
-* ocs30.css / O.C.S. main style [ocs30.css](http://sunnyork.github.io/htmlprototype-ocs/ocs30.css)
-* starRate.css / js plugin starRate [starRate.css](http://sunnyork.github.io/htmlprototype-ocs/starRate.css)
-* datepicker3.css / 3-rd party js plugin datepicker [datepicker.css](http://sunnyork.github.io/htmlprototype-ocs/datepicker.css)
+* bootstrap.min.css / bootstrap core [bootstrap.min.css](http://sunnyork.github.io/htmlprototype-ocs/css/bootstrap.min.css)
+* ocs30.css / O.C.S. main style [ocs30.css](http://sunnyork.github.io/htmlprototype-ocs/css/ocs30.css)
+* starRate.css / js plugin starRate [starRate.css](http://sunnyork.github.io/htmlprototype-ocs/css/starRate.css)
+* datepicker3.css / 3-rd party js plugin datepicker [datepicker.css](http://sunnyork.github.io/htmlprototype-ocs/css/datepicker.css)
 
 ## JS
 
 ### plugin
 
-* modalInit / v1.0 [modalInit.js](http://sunnyork.github.io/htmlprototype-ocs/modalInit.js)
-* rowAccess / v1.0 [rowAccess.js](http://sunnyork.github.io/htmlprototype-ocs/rowAccess.js)
-* starRate / v1.0 [starRate.js](http://sunnyork.github.io/htmlprototype-ocs/starRate.js)
+* modalInit / v1.0 [modalInit.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/modalInit.js)
+* rowAccess / v1.0 [rowAccess.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/rowAccess.js)
+* starRate / v1.0 [starRate.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/starRate.js)
 
 ### 3rd-party plugin
 
-* datepicker(calendar) / [bootstrap-datepicker.js](http://sunnyork.github.io/htmlprototype-ocs/bootstrap-datepicker.js)
-* js validate / v1.13.1 [jquery.validate.min.js](http://sunnyork.github.io/htmlprototype-ocs/jquery.validate.min.js)
-* validate using bootstrap-tooltip / v0.5 [jquery-validate.bootstrap-tooltip](http://sunnyork.github.io/htmlprototype-ocs/jquery-validate.bootstrap-tooltip)
+* datepicker(calendar) / [bootstrap-datepicker.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/bootstrap-datepicker.js)
+* js validate / v1.13.1 [jquery.validate.min.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/jquery.validate.min.js)
+* validate using bootstrap-tooltip / v0.5 [jquery-validate.bootstrap-tooltip](http://sunnyork.github.io/htmlprototype-ocs/javascripts/jquery-validate.bootstrap-tooltip)
 
 ### in page
 
-* in-page js files / [11.js](http://sunnyork.github.io/htmlprototype-ocs/11.js),[21.js](http://sunnyork.github.io/htmlprototype-ocs/21.js),[22.js](http://sunnyork.github.io/htmlprototype-ocs/22.js),[31c.js](http://sunnyork.github.io/htmlprototype-ocs/31c.js),
+* in-page js files / [11.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/11.js),[21.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/21.js),[22.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/22.js),[31c.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/31c.js),
 
 ### others
 
-* bootstrap / v3.2.0 [bootstrap.min.js](http://sunnyork.github.io/htmlprototype-ocs/bootstrap.min.js)
-* ie8 media query hack / v3.7.2 [html5shiv.min.js](http://sunnyork.github.io/htmlprototype-ocs/html5shiv.min.js), v1.4.2[respond.min.js](http://sunnyork.github.io/htmlprototype-ocs/respond.min.js)
-* ie10 viewport hack / [ie10-viewport-bog-wordaround.js](http://sunnyork.github.io/htmlprototype-ocs/ie10-viewport-bog-wordaround.js)
-* jquery / v1.11.1 [jqery.min.js](http://sunnyork.github.io/htmlprototype-ocs/jqery.min.js)
+* bootstrap / v3.2.0 [bootstrap.min.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/bootstrap.min.js)
+* ie8 media query hack / v3.7.2 [html5shiv.min.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/html5shiv.min.js), v1.4.2[respond.min.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/respond.min.js)
+* ie10 viewport hack / [ie10-viewport-bog-wordaround.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/ie10-viewport-bog-wordaround.js)
+* jquery / v1.11.1 [jqery.min.js](http://sunnyork.github.io/htmlprototype-ocs/javascripts/jqery.min.js)
 
 ### notice
 
